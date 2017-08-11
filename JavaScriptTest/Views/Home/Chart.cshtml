@@ -1,0 +1,25 @@
+﻿@model JavaScriptTest.ViewModels.ChartViewModel
+
+
+
+<h3>Chart</h3>
+<p>put chart here</p>
+
+<hr class="featurette-divider">
+
+<div class="row">
+    <div class="col-lg-8">
+        @(Model.barChart)
+    </div>
+    <div class="col-lg-4">
+        @(Model.pieChart)
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div>
+    @(Model.lineChart)
+</div>
+
+<br/>
